@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>I love you</p>
+
+    <a href="trial.html">
+    <button style="background-color: grey; border-radius: 5px; color: black; font-size: 10px;">Back</button>
+    </a>
+
+
+    <button onclick=" doSomething()"background-color: grey; border-radius: 5px; color: black; font-size: 10px;>click me</button>
+
+    <p id="Greeting">Hello</p>
+
+    <script>
+        function doSomething(){
+            document.getElementById("Greeting").innerHTML= "Goodbye"
+        }
+
+    </script>
+
+    <form action="index.php" method="post">
+
+        <label for="username">username</label>
+        <input type="text" id="username">
+
+    </form>
+
+</body>
+</html>
